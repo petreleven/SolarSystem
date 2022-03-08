@@ -5,18 +5,7 @@ from moon import Moon
 
 def CreateSolarSystem():
     ss = SolarSystem(2,2)
-    '''
-    sun = Sun("Sun", 696340, 1,5000)
-    venus = Planet('venus', 6051, 4.85e24, 0.2, 0.0, 0.1, 'orange')
-
-    earth = Planet('Earth', 6371, 5.972e24, 0.3, 0.0, 0.1, 'blue')
-
-    mars = Planet('Mars', 3390, 6.39e23, 0.4, 0.0, 0.1, 'red')
-
-    saturn = Planet('Saturn',58232, 5.6683e26, 0.66, 0.0, 0.1, 'green')
-
-    jupiter = Planet('Jupiter', 69911, 1.898e27, 0.7, 0.0, 0.1,'grey')
-    '''
+    
     sun = Sun("Sun", 20, 3, 5000)
 
     mercury = Planet('mercury', 20, 0.6, 0.2, 0.0, 3, 'green')
